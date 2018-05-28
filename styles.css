@@ -1,0 +1,31 @@
+::selection {
+    background: #ffb7b7;
+}
+header{
+    padding: 30px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+.title{
+	font-size:40px;
+} 
+.a{
+	background-color:black;
+	color:white;
+	font-weight:bold;
+}
+.a, .cap{
+	text-decoration:none;
+	text-align: center;
+}
+.cap:link{
+	color:white;
+}
+.cap:visited{
+	color:#ffb7b7;
+}
+.cap:active{
+	color:#white;
+}
