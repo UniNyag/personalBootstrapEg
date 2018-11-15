@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-color:#efe7f5;
+}
+h1{
+	align:center;
+}
+button{
+	border-radius:25px;
+    border:2px solid black;
+	color:black;
+	background-color:#efe7f5;
+	padding: 10px;
+}
+button:hover{
+outline:0;
+}
+button:focus{
+color:#dfcdeb;
+border:2px solid #dfcdeb;
+outline:0;
+}
+</style>
+</head>
+<body>
+<h1>Testing 123</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et scelerisque neque. Phasellus dignissim efficitur quam non lacinia. Vestibulum id felis tincidunt, pulvinar lectus a, maximus ante. In posuere neque purus, non facilisis neque tristique venenatis. Duis iaculis malesuada magna et dapibus. Fusce a eros posuere, tempus ipsum sed, suscipit mauris. Proin eget rhoncus quam. Phasellus porttitor viverra neque, id dignissim tellus iaculis eget. Etiam at placerat nisl. Donec ultrices elementum vehicula. Proin condimentum mi neque, vel varius tellus congue at. Aliquam erat volutpat. Morbi posuere leo quis sollicitudin placerat.</p>
+<button onclick="myFunction()">Click Me</button>
+<a href="https://www.lipsum.com/"><p id="demo"></p></a>
+<script>
+"background":{
+"type":"html",
+"url":"https://github.com/jasonette",
+"action":{
+"trigger":"navigate"
+}
+}
+function myFunction() {
+  document.getElementById("demo").innerHTML = "https://www.lipsum.com/";
+}
+</script>
+</body>
+</html>
